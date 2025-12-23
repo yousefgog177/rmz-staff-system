@@ -8,6 +8,7 @@ class Heart {
     constructor(db) {
         this.db = db;
         this.rmz = new (require("./rmz.js"))();
+        this.config = config;
     }
 
     async createMFATicket(ownerID) {
