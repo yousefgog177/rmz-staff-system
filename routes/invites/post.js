@@ -57,7 +57,7 @@ module.exports = {
         }).save();
 
         // Send invite email
-        const inviteUrl = `http://localhost:3000/accept-invite/${invite._id}`;
+        const inviteUrl = `${req.heart.config.FRONT_URL}accept-invite/${invite._id}`;
         await req.heart.sendInviteEmail(email, inviteUrl);
 
         return res.status(200).json({
