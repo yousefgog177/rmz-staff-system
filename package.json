@@ -1,0 +1,23 @@
+{
+  "name": "storiza-rmz-staff",
+  "version": "0.0.1",
+  "description": "Staff Rmz Manager by storiza.",
+  "main": "index.js",
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.6",
+    "axios": "^1.7.9",
+    "body-parser": "*",
+    "cors": "^2.8.5",
+    "express": "*",
+    "mongoose": "^8.6.3",
+    "node-fetch": "^2.6.1",
+    "random-token": "^0.0.8",
+    "ws": "*"
+  },
+  "license": "MIT",
+  "keywords": [
+    "rmz",
+    "staff",
+    "storiza"
+  ]
+}
