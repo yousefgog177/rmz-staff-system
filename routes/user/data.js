@@ -8,7 +8,7 @@ module.exports = {
         return res.status(200).json({ 
             storeID: req.userData.storeID, 
             permissions: req.userData.permissions,
-            isOwner: req.storeData.ownerID === req.userData._id,
+            isOwner: req.storeData?.ownerID === req.userData._id,
             isCompletedProfile: req.userData.password ? true : false
          })
 
