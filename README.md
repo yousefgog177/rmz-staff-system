@@ -153,14 +153,6 @@ The system supports granular permissions:
 - `remove_staff` - Remove staff members
 - `see_staffs` - View staff list
 
-## Security Notes
-
-⚠️ **IMPORTANT**: Never commit the `config.js` file with real credentials to public repositories!
-
-- The `.gitignore` file is configured to exclude `config.js`
-- Use `config.example.js` as a template for other developers
-- Store sensitive data in environment variables for production
-
 ## API Documentation
 
 ### Authentication Flow
@@ -177,14 +169,6 @@ The system supports granular permissions:
 4. System creates user account
 5. User sets password
 6. User gains access based on assigned permissions
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## License
 
