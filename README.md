@@ -37,7 +37,7 @@ A comprehensive staff management system for RMZ merchants built with Node.js, Ex
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/yousefgog177/rmz-staff-system
 cd rmz-staff
 ```
 
