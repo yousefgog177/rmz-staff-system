@@ -15,7 +15,8 @@ module.exports = {
     
     // Backend API URL (for development)
     BACKEND_API_URL: "http://localhost:3001",
-    
+    FRONT_URL: "http://localhost:3000/",
+
     // Server port
     PORT: 3001
 };
