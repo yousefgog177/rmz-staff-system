@@ -90,7 +90,6 @@ The frontend will run on http://localhost:3000
 
 ```
 rmz-staff/
-├── config.js              # Configuration file (DO NOT COMMIT)
 ├── config.example.js      # Configuration template
 ├── db.js                  # Database connection
 ├── heart.js               # Core functions (email, etc.)
